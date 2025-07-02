@@ -1,0 +1,4 @@
+1. If you have the same data, and the same hyperparameters, and the same number of nodes, same m x n matrix of nodes, will you get the same result each time? 
+2. Once the nodes "clusters" are calculated, how do we interpret the relationship between nodes?
+3. Can we use a neural network to trim our SOM nodes to identify those which are most mutually exclusive?
+4. How do we identify SOM clusters which are unphysical?
