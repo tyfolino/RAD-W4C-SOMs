@@ -2,3 +2,5 @@
 2. Once the nodes "clusters" are calculated, how do we interpret the relationship between nodes?
 3. Can we use a neural network to trim our SOM nodes to identify those which are most mutually exclusive?
 4. How do we identify SOM clusters which are unphysical?
+5. How do we determine the frequency of particular clusters within reanalysis? - If we calculate clusters based on Z500, how do we place a particular day in a cluster? 
+  Possible solution: reshape the 2d map to 1 dimension, and calculate the "c" term where c = argmin(|x - m|) where x is the day and m is the cluster. 
